@@ -1,0 +1,70 @@
+﻿body {
+    font-family:Calibri;
+}
+
+.container{
+    width: 500px;
+}
+
+.icon {
+    height: 5px;
+    width: 5px;
+}
+
+.head{
+    margin-left:10px;
+    margin-top:10px;    
+    display:block;
+}
+
+.time {
+    text-align:right;
+    margin-right:10px;
+    vertical-align:bottom;
+}
+
+.name{
+    text-align:left;
+    width: 100px;
+    float:left;
+}
+
+.user{
+    font-size:8pt;
+    vertical-align:text-top;
+}
+
+.item .time, .tweet .user {
+    font-style: italic;
+    color: #666666;    
+}
+
+.text{
+    display:block;
+}
+
+.item {
+    border-radius:5px;
+    box-shadow:0 0 3px 1px rgba(100,100,100,0.2);
+    overflow:hidden;
+    background: #fff;
+}
+
+.tweet-wrapper {
+    padding:10px;
+    box-sizing:border-box;
+    line-height:16px;
+}
+
+.item a {
+    text-decoration: none;
+    color: #03a8e5;
+}
+
+.item img {
+    width:24px;
+}
+
+.item a:hover {
+    text-decoration: underline;
+}
